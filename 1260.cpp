@@ -8,9 +8,11 @@ using namespace std;
 
 int checkedbfs[1001];
 int checkeddfs[1001];
+//fff
 vector <int> v[1001];
 
 void dfs(int t) {
+
 
 	if (checkeddfs[t]) {
 		return;
